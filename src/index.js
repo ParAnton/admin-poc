@@ -24,4 +24,9 @@ Button.propTypes = {
   style: React.PropTypes.object,
 };
 
-export default Button;
+const AdminButton = () => (<Button>Admin</Button>);
+
+export {
+  Button,
+};
+export default AdminButton;
