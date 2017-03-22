@@ -1,5 +1,7 @@
 import React from 'react';
 
+console.log('index.js admin poc');
+
 const buttonStyles = {
   border: '1px solid #eee',
   borderRadius: 3,
@@ -24,7 +26,7 @@ Button.propTypes = {
   style: React.PropTypes.object,
 };
 
-const AdminButton = () => (<Button>Admin</Button>);
+const AdminButton = () => (<Button>async loaded</Button>);
 
 export {
   Button,
