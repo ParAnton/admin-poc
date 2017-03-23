@@ -17,6 +17,7 @@
     "storybook": "start-storybook -p 9010",
     "publish-storybook": "bash .scripts/publish_storybook.sh",
     "build": "cross-env NODE_ENV=production ./node_modules/.bin/babel --ignore tests,stories --plugins transform-runtime ./src --out-dir ./dist",
+    "build:watch": "npm run build -- --watch --no-single-run",
     "build:clean": "rimraf ./dist"
   },
   "devDependencies": {
