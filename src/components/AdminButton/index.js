@@ -24,7 +24,7 @@ Button.propTypes = {
   style: React.PropTypes.object,
 };
 
-const AdminButton = () => (<Button>loaded async changed snyggt</Button>);
+const AdminButton = () => (<Button {...this.props} >loaded async changed snyggt</Button>);
 
 export {
   Button,

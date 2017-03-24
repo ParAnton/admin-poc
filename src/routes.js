@@ -11,7 +11,7 @@ const routes = [
     name: 'child1',
     path: 'child1',
     getComponent(nextState, cb) {
-      import('./AdminButton')
+      import('./containers/Admin')
         .then(loadModule(cb))
         .catch(errorLoading);
     },
